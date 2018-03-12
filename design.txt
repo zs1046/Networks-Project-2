@@ -1,0 +1,14 @@
+Zach Sotak
+CS 4310 - Fall 2017
+Project 2
+
+Design Document
+
+First step for the server was to create a socket.
+Then binded that socket to the specified port.
+Set the program to listen for a client.
+Once it accepts a client it reads their message
+and goes through if statements until the corresponding action
+is found and carried out. The #LIST action lists all IP addresses conneted to server.
+The #LOG function prints out all the action done on server with a timestamp.
+The server should continue to listen for agents up to 6. Since the linux servers only have eros and zeus up, I only have access to 2 different terminals so I couldn't attempt from a third terminal but it should work.

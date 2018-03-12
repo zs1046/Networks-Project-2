@@ -1,0 +1,17 @@
+Zach Sotak
+CS 4310 - Fall 2017
+Project 2
+
+Compile instructions
+
+The server needs to be started in its own terminal with the port number
+Compile the server: gcc server.c -o server
+Run the server: ./server 4000
+
+Then in another terminal the agent is started
+Compile the server: gcc agent.c -o agent
+Run the agent: ./agent eros.cs.txstate.edu 4000 "#JOIN"
+
+
+
+
